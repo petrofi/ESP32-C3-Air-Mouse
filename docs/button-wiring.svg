@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#fafafa"/>
+  <text x="550" y="60" text-anchor="middle" font-family="Arial" font-size="38" font-weight="700">4 Bacaklı Buton — Doğru Bağlantı</text>
+  <text x="550" y="100" text-anchor="middle" font-family="Arial" font-size="20" fill="#555">Buton boşta BOS, basıldığında BASILI görünmeli.</text>
+
+  <rect x="340" y="180" width="420" height="260" rx="24" fill="#eee" stroke="#222" stroke-width="4"/>
+  <circle cx="410" cy="250" r="18" fill="#222"/><circle cx="690" cy="250" r="18" fill="#222"/>
+  <circle cx="410" cy="370" r="18" fill="#222"/><circle cx="690" cy="370" r="18" fill="#222"/>
+  <circle cx="550" cy="310" r="72" fill="#333"/>
+  <text x="550" y="318" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="white">BUTON</text>
+
+  <line x1="410" y1="250" x2="410" y2="370" stroke="#777" stroke-width="7" stroke-dasharray="12 9"/>
+  <line x1="690" y1="250" x2="690" y2="370" stroke="#777" stroke-width="7" stroke-dasharray="12 9"/>
+  <text x="255" y="317" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#7e57c2">GPIO3 / GPIO2</text>
+  <line x1="300" y1="310" x2="410" y2="250" stroke="#7e57c2" stroke-width="9"/>
+  <text x="840" y="317" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700">GND</text>
+  <line x1="760" y1="310" x2="690" y2="370" stroke="#111" stroke-width="9"/>
+
+  <text x="550" y="505" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#0a7a2f">GPIO ve GND karşı elektriksel taraflarda olmalı.</text>
+  <text x="550" y="545" text-anchor="middle" font-family="Arial" font-size="20" fill="#444">Sürekli BASILI görünüyorsa butonu 180° çevirip tekrar deneyin.</text>
+</svg>
